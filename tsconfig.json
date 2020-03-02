@@ -1,0 +1,43 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "esnext",
+    "removeComments": true,
+    "noUnusedLocals": true,
+    "strictPropertyInitialization": false,
+    "target": "ES6",
+    "strict": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false,
+    "jsx": "preserve",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "importHelpers": true,
+    "lib": ["es7", "dom", "es2017.object"],
+    "noImplicitAny": true,
+    "sourceMap": false,
+    "baseUrl": ".",
+    "paths": {
+      "@root/*": ["./*"],
+      "@src/*": ["src/*"],
+      "@I/*": ["src/interfaces/*"],
+      "@server/*": ["src/server/*"],
+      "@components/*": ["src/components/*"],
+      "@pages/*": ["src/pages/*"],
+      "@models/*": ["src/models/*"],
+      "@utils/*": ["src/utils/*"],
+      "@services/*": ["src/services/*"],
+      "@serverUtils/*": ["src/server/utils/*"],
+      "@clientUtils/*": ["./src/client/utils/*"]
+    },
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules", "logs", "config"]
+}

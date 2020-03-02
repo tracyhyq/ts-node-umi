@@ -1,0 +1,21 @@
+.articleCard {
+  margin: 12px;
+}
+
+.articleCardHead {
+  height: 57px;
+}
+
+.articleTag {
+  margin-top: 4px;
+}
+
+.articleImage {
+  height: 300px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.smallFont {
+  font-size: 12px;
+}
